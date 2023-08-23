@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bEF8cg9S8Ha5CCdvPfqKCxBnQx4=
+		TXynU40WIClnIs8MBMaXZKT8is4=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uPyzLrR+HAKocPRG3M6cndlq/3I=
+		EK44RnHE3lguZKefQOYKmqrOggs=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CAjHw0rzzzYxtk16awxW1bUi7To=
+		XYJoyB47giP6kEDpcLZDJ7J02Rw=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5XXDI8K7TJyM+1w7n7fcakqrajo=
+		rDXtjrqzRPDRyi74RoJxrh11KRk=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CAjHw0rzzzYxtk16awxW1bUi7To=
+		XYJoyB47giP6kEDpcLZDJ7J02Rw=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KbeyKJuspyfLpx6GDRqVyj6YWyc=
+		c8RK5gxM/BV/OK0gy7f9HXW3prE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1sK9XPT+3AoKc3FqS0T5qSZpoj2lZq8c03Bm4No1BGc=
+			4FXo1zpMHaXHyVqdx3QQKhhXuNunV4lWFxbd8EgjTVg=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -79,28 +79,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQw8t/dZOcRu25V54pqmj1LlIfpciZKQbKDnevL6GU0=
+			GrYhr4SgVcs1gdUEPet+DKfEfbs/BpZoDVOpivxmWW8=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vfefY6bdF5zqWHrlRsyAfQa3+r0FAGy8ikXA0fqMMxY=
+			NBopb/Lx1JYMjTXusOjrplEKLmDp2sVLMNqXgjyplLA=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQw8t/dZOcRu25V54pqmj1LlIfpciZKQbKDnevL6GU0=
+			GrYhr4SgVcs1gdUEPet+DKfEfbs/BpZoDVOpivxmWW8=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xn3w+NiHI7rWA8/xge/ZD3fZJCFagRq2CZx6hFX6Go4=
+			GpZNxoEc3h2iUd3CW0qcej+gagcO7uApGtuoU2ZPfJs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

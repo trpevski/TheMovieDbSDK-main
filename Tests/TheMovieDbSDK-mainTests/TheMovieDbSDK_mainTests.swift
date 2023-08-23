@@ -1,4 +1,5 @@
 import XCTest
+
 @testable import TheMovieDbSDK_main
 
 final class TheMovieDbSDK_mainTests: XCTestCase {
