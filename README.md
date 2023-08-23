@@ -1,3 +1,4 @@
 # TheMovieDbSDK-main
 
-A description of this package.
+- Package valiation
+- Package manifest file change
