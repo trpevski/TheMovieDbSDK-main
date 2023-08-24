@@ -1,4 +1,5 @@
 # TheMovieDbSDK-main
 
-- Package valiation
-- Change manifest file change
+- Package valiation.
+- Change manifest file change.
+- Using fat lib.
