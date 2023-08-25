@@ -1,6 +1,7 @@
 # TheMovieDbSDK-main
 
-- Package valiation.
-- Change manifest file change.
-- Using fat lib.
-- Zip file
+- Import TheMovieDbSDK
+- Declare let service = MoviesService()
+- Call movies service.getMoviesList(page: 1) { movies in }
+
+This is simple usage of service
