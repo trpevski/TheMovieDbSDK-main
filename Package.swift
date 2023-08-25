@@ -19,10 +19,9 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-            // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-            // Targets can depend on other targets in this package, and on products in packages this package depends on.
-            .binaryTarget(
-                name: "TheMovieDbSDK",
-                path: "./Sources/TheMovieDbSDK.xcframework")
-        ]
+        .binaryTarget(
+            name: "TheMovieDbSDK",
+            url: "https://github.com/trpevski/TheMovieDbSDK-main/tree/main/Sources/TheMovieDbSDK.zip",
+            checksum: "6f162c567c2ea4ebb1053d0eb3ca800b"
+        )]
 )
