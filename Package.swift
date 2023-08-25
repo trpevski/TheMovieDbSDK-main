@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TheMovieDbSDK",
-            url: "https://github.com/trpevski/TheMovieDbSDK-main/tree/main/Sources/TheMovieDbSDK.zip",
+            url: "https://github.com/trpevski/TheMovieDbSDK-main/raw/main/Sources/TheMovieDbSDK.zip",
             checksum: "6f162c567c2ea4ebb1053d0eb3ca800b"
         )]
 )
