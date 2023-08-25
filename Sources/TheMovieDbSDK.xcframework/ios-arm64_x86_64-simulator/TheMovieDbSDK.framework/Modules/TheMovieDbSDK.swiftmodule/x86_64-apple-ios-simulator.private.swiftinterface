@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TheMovieDbSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import TheMovieDbSDK
+import _Concurrency
+import _StringProcessing
+public protocol NetworkEndPoint {
+  var scheme: Swift.String { get }
+  var host: Swift.String { get }
+  var path: Swift.String { get }
+  var queryItems: [Foundation.URLQueryItem] { get }
+  var method: TheMovieDbSDK.RequestMethod { get }
+  var header: [Swift.String : Swift.String]? { get }
+  var body: [Swift.String : Swift.String]? { get }
+}
+public struct MoviesService : TheMovieDbSDK.NetworkService, TheMovieDbSDK.MoviesServiceProtocol {
+  public init()
+  public func searchMovies(page: Swift.Int, query: Swift.String, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Movie]>)
+  public func searchSeries(page: Swift.Int, query: Swift.String, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Serie]>)
+  public func getMovieDetails(movieId: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<TheMovieDbSDK.MovieDetails>)
+  public func getSerieDetails(serieId: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<TheMovieDbSDK.SerieDetails>)
+  public func getMoviesList(page: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Movie]>)
+  public func getSerieList(page: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Serie]>)
+}
+public protocol MoviesServiceProtocol {
+  func getMoviesList(page: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Movie]>)
+  func getMovieDetails(movieId: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<TheMovieDbSDK.MovieDetails>)
+  func getSerieDetails(serieId: Swift.Int, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<TheMovieDbSDK.SerieDetails>)
+  func searchMovies(page: Swift.Int, query: Swift.String, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Movie]>)
+  func searchSeries(page: Swift.Int, query: Swift.String, complitionHandler: @escaping TheMovieDbSDK.CompletionHandler<[TheMovieDbSDK.Serie]>)
+}
+public enum NetworkError : Swift.Error {
+  case invalidURL
+  case requestFailed(Swift.Error)
+  case invalidResponse
+  case invalidData
+  case decodeError
+}
+public enum RequestMethod : Swift.String {
+  case delete
+  case get
+  case patch
+  case post
+  case put
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SerieDetails : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Movie : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public typealias CompletionHandler<T> = (Swift.Result<T, TheMovieDbSDK.NetworkError>) -> Swift.Void
+public protocol NetworkService {
+  func request<T>(endpoint: TheMovieDbSDK.NetworkEndPoint, responseModel: T.Type, completionHandler: @escaping TheMovieDbSDK.CompletionHandler<T>) where T : Swift.Decodable, T : Swift.Encodable
+}
+extension TheMovieDbSDK.NetworkService {
+  public func request<T>(endpoint: TheMovieDbSDK.NetworkEndPoint, responseModel: T.Type, completionHandler: @escaping TheMovieDbSDK.CompletionHandler<T>) where T : Swift.Decodable, T : Swift.Encodable
+}
+@_hasMissingDesignatedInitializers public class MovieDetails : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public class Serie : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+extension TheMovieDbSDK.RequestMethod : Swift.Equatable {}
+extension TheMovieDbSDK.RequestMethod : Swift.Hashable {}
+extension TheMovieDbSDK.RequestMethod : Swift.RawRepresentable {}

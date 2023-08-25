@@ -14,14 +14,9 @@ let package = Package(
             name: "TheMovieDbSDK",
             targets: ["TheMovieDbSDK"]),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
     targets: [
-        .binaryTarget(
-            name: "TheMovieDbSDK",
-            url: "https://github.com/trpevski/TheMovieDbSDK-main/raw/main/Sources/TheMovieDbSDK.zip",
-            checksum: "6f162c567c2ea4ebb1053d0eb3ca800b"
-        )]
+            .binaryTarget(
+                name: "TheMovieDbSDK",
+                path: "./Sources/TheMovieDbSDK.xcframework")
+        ]
 )
