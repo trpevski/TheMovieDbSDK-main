@@ -1,5 +1,3 @@
-# TheMovieDbSDK-main
+# TheMovieDbSDK
 
-- Package valiation.
-- Change manifest file change.
-- Using fat lib.
+- import TheMovieDbSDK

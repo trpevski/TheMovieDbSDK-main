@@ -2409,6 +2409,57 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TheMovieDbSDKConfigurator",
+                "printedName": "TheMovieDbSDK.TheMovieDbSDKConfigurator",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6sharedACvpZ",
+            "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6sharedACvpZ",
+            "moduleName": "TheMovieDbSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TheMovieDbSDKConfigurator",
+                    "printedName": "TheMovieDbSDK.TheMovieDbSDKConfigurator",
+                    "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6sharedACvgZ",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6sharedACvgZ",
+                "moduleName": "TheMovieDbSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "configure",
             "printedName": "configure(apiKey:)",

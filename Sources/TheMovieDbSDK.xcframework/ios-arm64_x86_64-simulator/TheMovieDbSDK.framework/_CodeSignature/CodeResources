@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LdBINWgNet4pa7oWUzmPzTsVISE=
+		omzl6EZZ28UY5n+J3QOpuoX7qNU=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		If2LgqX4AcXHP29GyTz2tCr8ogI=
+		RIl3N6J3qkkkaZTgT2EPVMOa8No=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		If2LgqX4AcXHP29GyTz2tCr8ogI=
+		RIl3N6J3qkkkaZTgT2EPVMOa8No=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YTPNTJnADbV58G0lq5W4lDHefCg=
+		pp4b8P6j7KLvbnVl+dSboXvdPCc=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LdBINWgNet4pa7oWUzmPzTsVISE=
+		omzl6EZZ28UY5n+J3QOpuoX7qNU=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nkhiM1weyGV9StVaBX/s5HwaQSE=
+		cpHAIgxoTzs8xu4XEQSi1TtCv6o=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nkhiM1weyGV9StVaBX/s5HwaQSE=
+		cpHAIgxoTzs8xu4XEQSi1TtCv6o=
 		</data>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iASUnBfHg9ooGdNY2nnQfBj5r34=
+		5+DIOx4IT3Vt5A0GDZfJ3VNDoX4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zaviufkE89Wp35+li2gfM7w2ZZbT20iL6zny7w4+v8c=
+			ciuxNQfDyIRtGek/kFGllBbQ/aPQkoh4YAw5dSQMDfc=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/3TsFMFANGJ3qgEpO8nJ8XGGyed63EgHRp63aefR0I=
+			8n71pCjqnPOA51AebQZzFjqs0GP4kt5xm9lKRc2lHok=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/3TsFMFANGJ3qgEpO8nJ8XGGyed63EgHRp63aefR0I=
+			8n71pCjqnPOA51AebQZzFjqs0GP4kt5xm9lKRc2lHok=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nhiywkJM3+9a9gkejbKCmE8mi9Xebnd2wzRqpHVKrIE=
+			/hWEfiQnk0hDF8qHtM5kLZcjhBSHO8S3sIc1KQmZCgg=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zaviufkE89Wp35+li2gfM7w2ZZbT20iL6zny7w4+v8c=
+			ciuxNQfDyIRtGek/kFGllBbQ/aPQkoh4YAw5dSQMDfc=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWiTr/JGPKcAvMlRZDGJmSQiGu48+JezDhTwbVahx2Y=
+			nZzumHLi5DuBKmmXotpgewVoDKqiPkoTK5XRN4yGmSU=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWiTr/JGPKcAvMlRZDGJmSQiGu48+JezDhTwbVahx2Y=
+			nZzumHLi5DuBKmmXotpgewVoDKqiPkoTK5XRN4yGmSU=
 			</data>
 		</dict>
 		<key>Modules/TheMovieDbSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yRxkQlUygLQbVnQTrxO00mx8hBliVr0qFkpMQV9Go+k=
+			pAWdXRXpZKcBsBJikIEQp7Ky2xhMA/YBPVkHl6VcAPI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
