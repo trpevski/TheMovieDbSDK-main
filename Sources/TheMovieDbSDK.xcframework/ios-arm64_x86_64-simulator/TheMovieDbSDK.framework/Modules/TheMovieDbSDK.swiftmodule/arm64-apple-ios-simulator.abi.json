@@ -2219,6 +2219,232 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TheMovieDbSDKConfigurator",
+        "printedName": "TheMovieDbSDKConfigurator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvp",
+            "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvp",
+            "moduleName": "TheMovieDbSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvg",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvg",
+                "moduleName": "TheMovieDbSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvs",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvs",
+                "moduleName": "TheMovieDbSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvM",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6apiKeySSvM",
+                "moduleName": "TheMovieDbSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC4hostSSvp",
+            "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC4hostSSvp",
+            "moduleName": "TheMovieDbSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC4hostSSvg",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC4hostSSvg",
+                "moduleName": "TheMovieDbSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scheme",
+            "printedName": "scheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6schemeSSvp",
+            "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6schemeSSvp",
+            "moduleName": "TheMovieDbSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC6schemeSSvg",
+                "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC6schemeSSvg",
+                "moduleName": "TheMovieDbSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC9configure6apiKeyySS_tF",
+            "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC9configure6apiKeyySS_tF",
+            "moduleName": "TheMovieDbSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TheMovieDbSDK0abC15SDKConfiguratorC",
+        "mangledName": "$s13TheMovieDbSDK0abC15SDKConfiguratorC",
+        "moduleName": "TheMovieDbSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3056,21 +3282,21 @@
     {
       "filePath": "\/Users\/darkotrpevski\/Development\/SDK\/TheMovieDbSDK\/TheMovieDbSDK\/Services\/Networking\/NetworkConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 174,
-      "length": 34,
-      "value": "\"1b4581674d541283a6856a471f656de0\""
+      "offset": 220,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/darkotrpevski\/Development\/SDK\/TheMovieDbSDK\/TheMovieDbSDK\/Services\/Networking\/NetworkConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 245,
       "length": 20,
       "value": "\"api.themoviedb.org\""
     },
     {
       "filePath": "\/Users\/darkotrpevski\/Development\/SDK\/TheMovieDbSDK\/TheMovieDbSDK\/Services\/Networking\/NetworkConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 290,
       "length": 7,
       "value": "\"https\""
     },

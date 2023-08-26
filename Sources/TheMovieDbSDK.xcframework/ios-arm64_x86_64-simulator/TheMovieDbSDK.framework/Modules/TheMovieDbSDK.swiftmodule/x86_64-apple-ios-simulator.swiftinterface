@@ -68,6 +68,13 @@ public protocol NetworkService {
 extension TheMovieDbSDK.NetworkService {
   public func request<T>(endpoint: TheMovieDbSDK.NetworkEndPoint, responseModel: T.Type, completionHandler: @escaping TheMovieDbSDK.CompletionHandler<T>) where T : Swift.Decodable, T : Swift.Encodable
 }
+@_hasMissingDesignatedInitializers public class TheMovieDbSDKConfigurator {
+  public var apiKey: Swift.String
+  final public let host: Swift.String
+  final public let scheme: Swift.String
+  public func configure(apiKey: Swift.String)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class MovieDetails : Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
